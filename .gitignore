@@ -6,3 +6,6 @@ node_modules
 dist
 dist-ssr
 *.local
+.c_bin.classes
+.c_bin
+.classes

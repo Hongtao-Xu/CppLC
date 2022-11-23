@@ -7,7 +7,7 @@
 using namespace std;
 
 class Solution {
-public:
+  public:
     string interpret(string command) {
         string res;
         for (int i = 0; i < command.size(); ++i) {
