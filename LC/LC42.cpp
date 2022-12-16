@@ -31,8 +31,7 @@ class Solution {
 class Solution1 {
   public:
     int trap(vector<int>& height) {
-        int ans = 0, left = 0, right = height.size() - 1, pre_max = 0,
-            suf_max = 0;
+        int ans = 0, left = 0, right = height.size() - 1, pre_max = 0, suf_max = 0;
 
         while (left <= right) { //当left==right时，也有一格在接水
             pre_max = max(pre_max, height[left]);
